@@ -1,0 +1,241 @@
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+
+
+#heading1{
+    font-family: monospace;
+    text-align: center;
+    font-weight: lighter;
+    background-color: rgba(185, 185, 185, 0.712);
+    color: white;
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    transition: color;
+}
+
+body{
+    background-color:  rgb(63, 63, 63);
+    
+}
+
+#heading1:hover{
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 196, 255);
+    font-weight: lighter;
+    border-radius:20px ;
+  
+    
+
+}
+
+.groupphoto{
+    border: 3px solid rgb(122, 122, 122) ;
+    border-radius: 15px;
+    position: relative;
+    max-width: 100% ;
+    height: auto;
+    user-select:none;
+    margin: 15px
+}
+
+
+.groupphotoo{
+ 
+    border: 3px solid;
+    border-color: rgb(148, 148, 148);
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    
+   
+    
+    user-select:none;
+    
+    
+    
+
+
+}
+#girls{
+    display: hidden;
+    position: static;
+    float: left;
+    max-width: 100%;
+    height: 400px;
+    margin-top: 38px;
+}
+#boys{
+    display: hidden;
+    position: static;
+    float: center;
+    max-width: 100%;
+    height: 400px;
+}
+
+#celebration{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 200;
+    color: white;
+    float: none;
+    font-size: 2em;
+    
+    background-color: rgba(185, 185, 185, 0.712);
+   
+}
+#pongalcelebration{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 200;
+    color: white;
+    float: none;
+    font-size: 2em;
+    
+    background-color: rgba(185, 185, 185, 0.712);
+   
+}
+
+#retirementceleb{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    
+    
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 200;
+    color: white;
+    float: none;
+    font-size: 2em;
+    
+    background-color: rgba(185, 185, 185, 0.712);
+   
+}
+#teachersdayceleb{
+    position: relative;
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 200;
+    color: white;
+    float: none;
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+    background-color: rgba(185, 185, 185, 0.712);
+   
+}
+
+#celebration:hover{
+    background-color: aqua;
+
+}
+
+
+.celebrations{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border-color: rgb(167, 167, 167);
+    border: 3px solid;
+}
+
+#pongalwide{
+    position: relative;
+    height:auto;
+    max-width: 100%;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: 3px solid;
+    
+
+}
+#rcake1{
+    display: hidden;
+    position: static;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin-top: 58px;
+}
+#rcake{
+    display: hidden;
+    position: static;
+    float: center;
+    max-width: 100%;
+    height: 500px;
+    margin-top: 202px;
+    margin-left: 25px;
+    margin-bottom: 260px;
+}
+#rcake2{
+    display: hidden;
+    position: static;
+    float: right ;
+    max-width: 100%;
+    height: auto;
+    margin-top: 38px;
+    margin-right: 20px;
+    ;
+}
+#tcake{
+    position: relative;
+    width: 500;
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    border: 3px solid;
+    border-color: black;
+    margin-right: 15px;
+
+}
+#tboard{
+    position: relative;
+    width: 500;
+    max-width: 100%;
+    height: 50%;
+    
+    margin-left: 15px;
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+
+}
+#tdcvideo{
+    position: relative;
+    border: 3px;
+    border-radius: 15px;
+    border-color: rgb(140, 223, 223);
+    margin-left: 31%;
+    width: auto;
+    height:auto;
+
+    
+}
