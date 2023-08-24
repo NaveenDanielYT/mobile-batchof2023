@@ -11,8 +11,9 @@
     font-weight: lighter;
     background-color: rgba(185, 185, 185, 0.712);
     color: white;
+    font-size:1em;
     position: relative;
-    width: 100%;
+    max-width: 100%;
     border-radius: 15px;
     transition: color;
 }
@@ -37,7 +38,7 @@ body{
     border: 3px solid rgb(122, 122, 122) ;
     border-radius: 15px;
     position: relative;
-    max-width: 100% ;
+    max-width: 95% ;
     height: auto;
     user-select:none;
     margin: 15px
@@ -66,21 +67,21 @@ body{
     display: hidden;
     position: static;
     float: left;
-    max-width: 100%;
-    height: 400px;
+    max-width: 95%;
+    height: auto;
     margin-top: 38px;
 }
 #boys{
     display: hidden;
     position: static;
     float: center;
-    max-width: 100%;
-    height: 400px;
+    max-width: 95%;
+    height: auto;
 }
 
 #celebration{
     position: relative;
-    width: auto;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 15px;
@@ -90,7 +91,7 @@ body{
     font-weight: 200;
     color: white;
     float: none;
-    font-size: 2em;
+    font-size: 1em;
     
     background-color: rgba(185, 185, 185, 0.712);
    
@@ -102,12 +103,12 @@ body{
     display: block;
     border-radius: 15px;
     text-align: center;
-    
+    max-width:100%;
     font-family: 'Roboto', sans-serif;;
     font-weight: 200;
     color: white;
     float: none;
-    font-size: 2em;
+    font-size: 1em;
     
     background-color: rgba(185, 185, 185, 0.712);
    
@@ -115,7 +116,7 @@ body{
 
 #retirementceleb{
     position: relative;
-    width: auto;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 15px;
@@ -133,7 +134,7 @@ body{
 }
 #teachersdayceleb{
     position: relative;
-    width: auto;
+    max-width: 100%;
     height: auto;
     display: block;
     border-radius: 15px;
@@ -167,7 +168,7 @@ body{
 #pongalwide{
     position: relative;
     height:auto;
-    max-width: 100%;
+    max-width: 95%;
     margin-left: 15px;
     border-radius: 15px;
     border: 3px solid;
