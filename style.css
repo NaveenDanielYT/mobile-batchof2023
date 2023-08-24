@@ -75,6 +75,7 @@ body{
     display: hidden;
     position: static;
     float: center;
+    margin-top:15px;
     max-width: 95%;
     height: auto;
 }
@@ -104,7 +105,7 @@ body{
     border-radius: 15px;
     text-align: center;
     max-width:100%;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: white;
     float: none;
